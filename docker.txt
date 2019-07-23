@@ -1,0 +1,1 @@
+docker run --name=coolq -d -p 8080:9000 -v /root/coolq:/home/user/coolq -e VNC_PASSWD=123qwe -e COOLQ_ACCOUNT=3146729904 coolq/wine-coolq
